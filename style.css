@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: linear gradient;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  background: white;
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: inset;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: aquamarine;
+  color: black;
+  border: 10px;
+  border-bottom: 20px;
+  cursor: pointer;
+}
+button:hove {
+  background-color: bisque;
+}
+#result {
+  margin-top: 100px;
+  font-weight: 50px;
+  font-size: 70px;
+  color: aliceblue;
+}
